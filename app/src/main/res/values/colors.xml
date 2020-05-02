@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#333333</color>
+    <color name="light_yellow">#FEFEE3</color>
+    <color name="melon">#FFBFB7</color>
+    <color name="lavender">#DCCFEC</color>
+    <color name="lilac">#B0A1BA</color>
+    <color name="apricot">#FFCAB1</color>
+    <color name="yellow">#FFF275</color>
+</resources>

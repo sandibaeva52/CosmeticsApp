@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:padding="5dp"
+    android:id="@id/filter"
+    android:layout_height="wrap_content"
+    android:layout_gravity="top|center"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:text="Filter products"
+        android:textSize="26dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:hint="Description" />
+
+
+    <EditText
+        android:id="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:hint="Name"/>
+
+
+    <Button
+        android:id="@id/filter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:text="Filter"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimary" />
+</LinearLayout>
